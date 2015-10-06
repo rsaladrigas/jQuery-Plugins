@@ -143,10 +143,6 @@ $.fn.numeric.keypress = function(e)
 				allow = false;
 			}
 		}
-		//if the key pressed is '.' and the decimal symbol is not present yet, add it to the field.
-		else if(key == 46 && $.inArray(decimal, value.split('')) == -1){
-			this.value += decimal;
-		}
 	}
 	else
 	{
